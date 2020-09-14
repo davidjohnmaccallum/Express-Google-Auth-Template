@@ -14,6 +14,8 @@ Setup the OAuth consent screen.
 * Don't set an image yet. This will trigger the validation process which takes a long time.
 
 Go to Credentials and Create an OAuth Client ID.
+* Set Authorised JavaScript origins to http://localhost:3000
+* Set Authorised redirect URIs to http://localhost:3000/oauth/callback
 * Make a note of the Client ID, Client Secret and Redirect URL.
 * Set the following environment variables: OAUTH_CLIENT_ID, OAUTH_CLIENT_SECRET, OAUTH_REDIRECT_UR
 
